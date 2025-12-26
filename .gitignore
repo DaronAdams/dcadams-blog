@@ -1,0 +1,33 @@
+# Hugo build output
+public/
+resources/_gen/
+
+# Hugo cache
+.hugo_build.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Node (if using npm for asset pipeline)
+node_modules/
+
+# Environment files
+.env
+.env.local
+
+# Logs
+*.log
+
+# Draft content (optional - remove if you want drafts in repo)
+# content/drafts/
+
+# Hugo stats (generated file)
+hugo_stats.json
